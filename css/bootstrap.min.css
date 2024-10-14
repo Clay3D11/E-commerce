@@ -109,12 +109,12 @@ body {
   background-repeat: no-repeat;
   opacity: 0;
   z-index: 0;
-  animation: imageAnimation 36s linear infinite 0s;
-  -webkit-animation: imageAnimation 36s linear infinite 0s;
+  animation: imageAnimation 30s linear infinite 0s;
+  -webkit-animation: imageAnimation 30s linear infinite 0s;
 }
 
 .slideshow li:nth-child(1) span {
-  background-image: url("/WeedOnlineStore/img/lucy.jpg");
+  background-image: url("./img/lucy.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -141,11 +141,7 @@ body {
   background-size: contain; */
   animation-delay: 24s;
 }
-.slideshow li:nth-child(6) span {
-  /* background-position: center;
-  background-size: contain; */
-  animation-delay: 30s;
-}
+
 
 @keyframes imageAnimation {
   0% {
